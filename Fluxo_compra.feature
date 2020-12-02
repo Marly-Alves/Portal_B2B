@@ -3,9 +3,9 @@ Funcionalidade: Comprar
 Serão descritos os casos de testes de layout e funcionalidades das telas do fluxo de compra 
 Pré-condição ter clicado em comprar na tela do veículo
 
-#Layout 1 - Minhas compras - Itens no carrinho - Topo
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Itens no carrinho - Topo
-Dado que o usuário esteja na primeira tela do fluxo de compras, no topo da tela
+#Layout 1 - Fluxo de compra - Itens no carrinho - Topo
+Cenário: Validar os atributos de layout da tela 1 do fluxo de compra - Itens no carrinho - Topo
+Dado que o usuário esteja na primeira tela do fluxo de compra, no topo da tela
 Então no topo são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -20,13 +20,13 @@ Exemplos:
 
 #Funcionalidade - Continuar comprando
 Cenário: Validar que o link "Continuar comprando" retorna para a tela de estoque de veículos
-Dado que o usuário esteja na tela "Minhas compras" 
+Dado que o usuário esteja na tela 1 do fluxo de compra
 Quando aciona o link "Continuar comprando"
 Então o Portal retorna para a tela de estoque de veículos
 
-#Layout 2 - Minhas compras - Itens no carrinho - Container de produtos
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Itens no carrinho - Container de produtos
-Dado que o usuário esteja na primeira tela do fluxo de compras, no container de produtos
+#Layout 2 - Fluxo de compra - Itens no carrinho - Container de produtos
+Cenário: Validar os atributos de layout da tela 1 do fluxo de compra - Itens no carrinho - Container de produtos
+Dado que o usuário esteja na primeira tela do fluxo de compra, no container de produtos
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -39,9 +39,9 @@ Exemplos:
 | Label      | Tipo                                               |
 | Label      | Valor                                              |
 
-#Layout 3 - Minhas compras - Itens no carrinho - Container detalhes da compra
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Itens no carrinho - Container detalhes da compra
-Dado que o usuário esteja na primeira tela do fluxo de compras, no container detalhes da compra
+#Layout 3 - Fluxo de compra - Itens no carrinho - Container detalhes da compra
+Cenário: Validar os atributos de layout da tela 1 do fluxo de compra - Itens no carrinho - Container detalhes da compra
+Dado que o usuário esteja na primeira tela do fluxo de compra, no container detalhes da compra
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -67,9 +67,9 @@ Dado que o usuário marque o radio button "Estou ciente"
 E acione o comando "Continuar"
 Então o Portal direciona para o próximo passo do fluxo de compra - Confirmação dos dados do cliente
 
-#Layout 4 - Minhas compras - Confirmação dos dados do cliente - Topo
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Confirmação dos dados do cliente - Topo
-Dado que o usuário esteja na segunda tela do fluxo de compras, no topo
+#Layout 4 - Fluxo de compra - Confirmação dos dados do cliente - Topo
+Cenário: Validar os atributos de layout da tela 2 do fluxo de compra - Confirmação dos dados do cliente - Topo
+Dado que o usuário esteja na segunda tela do fluxo de compra, no topo
 Então no topo são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -84,13 +84,13 @@ Exemplos:
 
 #Funcionalidade - Continuar comprando
 Cenário: Validar que o link "Continuar comprando" retorna para a tela de estoque de veículos
-Dado que o usuário esteja na tela "Minhas compras" 
+Dado que o usuário esteja na tela 2 do fluxo de compra 
 Quando aciona o link "Continuar comprando"
 Então o Portal retorna para a tela de estoque de veículos
 
-#Layout 5 - Minhas compras - Confirmação dos dados do cliente - Dados do cliente
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Confirmação dos dados do cliente - Dados do cliente
-Dado que o usuário esteja na segunda tela do fluxo de compras, container "Dados do cliente"
+#Layout 5 - Fluxo de compra - Confirmação dos dados do cliente - Dados do cliente
+Cenário: Validar os atributos de layout da tela 2 do fluxo de compra - Confirmação dos dados do cliente - Dados do cliente
+Dado que o usuário esteja na segunda tela do fluxo de compra, container "Dados do cliente"
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -112,13 +112,13 @@ Exemplos:
 
 #Funcionalidade - Indicar outro responsável
 Cenário: Validar que o Portal permite indicar outro responsável pela empresa
-Dado que o usuário esteja na segunda tela do fluxo de compras
+Dado que o usuário esteja na segunda tela do fluxo de compra
 Quando acionar o comando "Indicar outro responsável"
 Então o Portal direciona para o formulário de cadastro de responsável
 
-#Layout 6 - Minhas compras - Confirmação dos dados do cliente - Detalhes da compra
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Confirmação dos dados do cliente - Detalhes da compra
-Dado que o usuário esteja na segunda tela do fluxo de compras, no container detalhes da compra
+#Layout 6 - Fluxo de compra - Confirmação dos dados do cliente - Detalhes da compra
+Cenário: Validar os atributos de layout da tela 2 do fluxo de compra - Confirmação dos dados do cliente - Detalhes da compra
+Dado que o usuário esteja na segunda tela do fluxo de compra, no container detalhes da compra
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -131,13 +131,13 @@ Exemplos:
 
 #Funcionalidade - Confirmar dados
 Cenário: Validar a funcionalidade de confirmar dados e seguir para o próximo passodo fluxo de compra
-Dado que o usuário que o usuário esteja na segunda tela do fluxo de compras, confirmação dos dados do cliente
+Dado que o usuário que o usuário esteja na segunda tela do fluxo de compra, confirmação dos dados do cliente
 Quando aciona o comando "Confirmar dados"
 Então o Portal direciona para o próximo passo do fluxo de compra - Pagamento
 
-#Layout 7 - Minhas compras - Pagamento - Topo
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Pagamento - Topo
-Dado que o usuário esteja na terceira tela do fluxo de compras, no topo da tela
+#Layout 7 - Fluxo de compra - Pagamento - Topo
+Cenário: Validar os atributos de layout da tela 3 do fluxo de compra - Pagamento - Topo
+Dado que o usuário esteja na terceira tela do fluxo de compra, no topo da tela
 Então no topo são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -149,9 +149,9 @@ Exemplos:
 | Ícone      | Passo atual        |
 | Ícone      | Passo 4            |
 
-#Layout 8 - Minhas compras - Pagamento - Escolher forma de pagamento
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Pagamento - Escolha a forma de pagamento
-Dado que o usuário esteja na terceira tela do fluxo de compras, no container de formas de pagamento
+#Layout 8 - Fluxo de compra - Pagamento - Escolher forma de pagamento
+Cenário: Validar os atributos de layout da tela 3 do fluxo de compra - Pagamento - Escolha a forma de pagamento
+Dado que o usuário esteja na terceira tela do fluxo de compra, no container de formas de pagamento
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -167,19 +167,19 @@ Exemplos:
 
 #Funcionalidade: Pagar com Pix
 Cenário: Validar direcionamento para integração com API do Pix
-Dado que o usuário esteja na terceira tela do fluxo de compras, no container de formas de pagamento
+Dado que o usuário esteja na terceira tela do fluxo de compra, no container de formas de pagamento
 Quando marca o radio button "Quero pagar com Pix"
 Então o Portal grava a intenção de pagamento(Confirmar essa parte)
 
 #Funcionalidade: Pagar com Boleto
 Cenário: Validar geração de boleto para pagamento
-Dado que o usuário esteja na terceira tela do fluxo de compras, no container de formas de pagamento
+Dado que o usuário esteja na terceira tela do fluxo de compra, no container de formas de pagamento
 Quando marca o radio button "Quero pagar com Boleto"
 Então o Portal grava a intenção de pagamento e gera o boleto para pagamento
 
-#Layout 9 - Minhas compras - Pagamento - Detalhes da compra
-Cenário: Validar os atributos de layout da tela "Minhas compras" - Confirmação dos dados do cliente - Detalhes da compra
-Dado que o usuário esteja na terceira tela do fluxo de compras, no container detalhes da compra
+#Layout 9 - Fluxo de compra - Pagamento - Detalhes da compra
+Cenário: Validar os atributos de layout da tela 3 do fluxo de compra - Confirmação dos dados do cliente - Detalhes da compra
+Dado que o usuário esteja na terceira tela do fluxo de compra, no container detalhes da compra
 Então no container são apresentados os componentes <Componente>
 E os elementos <Elemento>
 
@@ -197,3 +197,55 @@ Quando o método de pagamento foi realizado
 E o usuário aciona o comando "Finalizar compra"
 Então o Portal envia um e-mail para o endereço cadastrado 
 E direciona para a tela de confirmação do pedido
+
+#Layout 10 - Fluxo de compra - Confirmação do pedido - Topo
+Cenário: Validar os atributos de layout da tela 4 do fluxo de compra - Confirmação do pedido - Topo
+Dado que o usuário esteja na quarta tela do fluxo de compra, no topo da tela
+Então no topo são apresentados os componentes <Componente>
+E os elementos <Elemento>
+
+Exemplos:
+| Componente | Elemento           |
+| Label      | Olá, Razão Soacial |
+| Label      | Estamos quase lá   |
+| Ícone      | Passo 1 Ok         |
+| Ícone      | Passo 2 Ok         |
+| Ícone      | Passo 3 Ok         |
+| Ícone      | Passo 4            |
+
+#Layout 11 - Fluxo de compra - Confirmação do pedido - Tela central
+Cenário: Validar os atributos de layout da tela 4 do fluxo de compra - Confirmação do pedido - Tela central
+Dado que o usuário esteja na quarta tela do fluxo de compra
+Então no centro da tela são apresentados os componentes <Componente>
+E os elementos <Elemento>
+
+Exemplos:
+| Componente | Elemento                                  |
+| Ícone      | Assinatura do contrato                    |
+| Label      | Acesse seu e-mail para assinar o contrato |
+| Comando    | Acessar Minhas Compras                    |
+
+#Funcionalidade - Acessar Minhas Compras
+Cenário: Validar direcionamento do comando "Acessar Minhas Compras"
+Dado que o usuário tela de confirmação de pedido
+Quando aciona o comando "Acessar Minas Compras"
+Então é direcionado para tela de agradecimento
+
+#Layout 11 - Fluxo de compra - Agradecimento
+Cenário: Validar os atributos de layout da tela 5 do fluxo de compra - Agradecimento
+Dado que o usuário esteja na última tela do fluxo de compra
+Então são apresentados os componentes <Componente>
+E os elementos <Elemento>
+
+Exemplos:
+| Componente | Elemento               |
+| Label      | Olá, Razão Soacial     |
+| Ícone      | Estrela                |
+| Label      | Obrigado pela compra!  |
+| Comando    | Acessar Minhas Compras |
+
+#Funcionalidade - Acessar Minhas Compras
+Cenário: Validar direcionamento do comando "Acessar Minhas Compras"
+Dado que o usuário tela de agradecimento
+Quando aciona o comando "Acessar Minas Compras"
+Então é direcionado para tela tela "Minhas compras"
