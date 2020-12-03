@@ -76,8 +76,8 @@ Dado que o usuário acione a seta ao lado da razão social e clique em "Sair"
 Então o logout do Portal é efetuado com sucesso 
 
 #Layout 2 - Container de critérios de busca - Título
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Refinar resultado
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca e deseja refinar os resultados
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Refinar resultado
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca e deseja refinar os resultados
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -87,8 +87,8 @@ Exemplos:
 | Ícone        | Refinar resultado |
 
 #Layout 3 - Container de critérios de busca - Região
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Região
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca, em busca por região
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Região
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca, em busca por região
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -130,8 +130,8 @@ Então o container de resutados é atualizado automaticamente, contendo apenas v
 
 #Confirmar se segue regra dos demais filtros
 #Layout 4 - Container de critérios de busca - Ano
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Ano
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca por ano
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Ano
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por ano
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -152,8 +152,8 @@ Dado que o usuário marque o radio button de mais de um ano
 Então o container de resutados é atualizado automaticamente, contendo apenas veículos dos anos selecionados
 
 #Layout 5 - Container de critérios de busca - Marca
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Marca
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca por marca
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Marca
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por marca
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -194,8 +194,8 @@ Exemplos:
 | Volkswagen |
 
 #Layout 6 - Container de critérios de busca - Faixa de preço
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Faixa de preço
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca por faixa de preço
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Faixa de preço
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por faixa de preço
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -217,8 +217,8 @@ Dado que o usuário marque o radio button de várias faixas de preço
 Então o container de resutados é atualizado automaticamente, contendo os veículos das faixas de preço selecionadas
 
 #Layout 7 - Container de critérios de busca - Categoria
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Categoria
-Dado que o usuário esteja na tela de Filtros avançados, container de critérios de busca por categoria
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Categoria
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por categoria
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -251,8 +251,8 @@ Exemplos:
 
 #Aguardar definição, pois está com a mesma função do Layout 6
 #Layout 8 - Container de critérios de busca - Valor
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Valor
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por valor inicial e final
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Valor
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por valor inicial e final
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -266,8 +266,8 @@ Exemplos:
 #Descrever cenários das funcionalidades
 
 #Layout 9 - Container de critérios de busca - KM
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Quilometragem
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por quilometragem
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Quilometragem
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por quilometragem
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -284,8 +284,8 @@ Dado que o usuário arraste o componente até o valor inicial e valor final dese
 Então o container de resutados é atualizado automaticamente, contendo os veículos com as quilometragens que correspondem à faixa determinada
 
 #Layout 10 - Container de critérios de busca - Câmbio
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Câmbio
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por câmbio
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Câmbio
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por câmbio
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -321,8 +321,8 @@ Exemplos:
 | Manual     |
 
 #Layout 11 - Container de critérios de busca - Combustível
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Combustível
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por combustível
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Combustível
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por combustível
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -360,8 +360,8 @@ Exemplos:
 | Gasolina e Álcool    |
 
 #Layout 12 - Container de critérios de busca - Cor
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Cor
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por cor
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Cor
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por cor
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -399,8 +399,8 @@ Exemplos:
 | Verde  |
 
 #Layout 13 - Container de critérios de busca - Características
-Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de filtros avançados - Por Características
-Dado que o usuário esteja na tela de filtros avançados, container de critérios de busca por características
+Esquema do Cenário: Validar os componentes de layout no container de critérios de busca da tela de "Nosso estoque" - Por Características
+Dado que o usuário esteja na tela de "Nosso estoque", container de critérios de busca por características
 Então a tela possui os componentes <Componente>
 Então a tela possui os elementos <Elemento>
 
@@ -439,7 +439,7 @@ Exemplos:
 
 #Layout 14 - Container de resultados - Home padrão 
 Esquema do Cenário: Validar os componentes de layout no container de resultados
-Dado que o usuário esteja na tela de filtros avançados, container de resultados
+Dado que o usuário esteja na tela de "Nosso estoque", container de resultados
 E ainda não selecionou filtro específico, apenas sua região
 Então a tela padrão exibe os resultados em forma de card 
 E possui os componentes <Componente> e elementos <Elemento>
