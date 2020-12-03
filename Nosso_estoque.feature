@@ -1,10 +1,15 @@
 # language: pt
-Funcionalidade: Filtrar veículos
-Serão descritos os casos de testes de layout e funcionalidades dos critérios de busca disponíveis no Portal
+Funcionalidade: Comprar
+Serão descritos os casos de testes de layout e funcionalidades da tela "Nosso estoque"
+Pré-condição: ter clicado no menu "Nosso estoque" em qualquer tela onde ele esteja disponível
+
+Cenário: Validar critério de ordenação incial
+Dado que o usuário acione o menu "Nosso estoque"
+Então o resultado é apresentado, por padrão, em ordenação "Menor Preço", do menor para o maior
 
 #Layout 1 - Topo
-Esquema do Cenário: Validar os componentes de layout no topo da tela de filtros avançados - Barra de menus
-Dado que o usuário esteja na tela de Filtros avançados
+Esquema do Cenário: Validar os componentes de layout no topo da tela "Nosso estoque" - Barra de menus
+Dado que o usuário esteja na tela "Nosso estoque"
 Então a barra de menus da tela possui os componentes <Componente>
 Então a barra de menus da tela possui os elementos <Elemento>
 
