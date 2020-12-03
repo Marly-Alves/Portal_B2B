@@ -1,5 +1,5 @@
 # language: pt
-Funcionalidade: Comprar
+Funcionalidade: Ver estoque e filtrar veículos
 Serão descritos os casos de testes de layout e funcionalidades da tela "Nosso estoque"
 Pré-condição: ter clicado no menu "Nosso estoque" em qualquer tela onde ele esteja disponível
 
