@@ -24,7 +24,7 @@ Exemplos:
 | Seleção    | Ordenar por                    |
 | Imagem     | Foto do veículo                |
 | Label      | Localidade onde está o veículo |
-| Label      | Mara e Modelo                  |
+| Label      | Marca e Modelo                 |
 | Label      | Tipo                           |
 | Label      | Ano                            |
 | Label      | Km                             |
@@ -52,4 +52,3 @@ Dado que o usuário esteja na tela de favoritos
 Quando aciona a seleção "Ordenar por" e escolhe a opção "Ano"
 Então os favoritos são ordenados por Ano
 
-    
